@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    background-color:black;
+    font-family: 'Roboto', sans-serif;
+}
+.corps{
+    margin: 10px 10px 10px 10px;
+    background-color: black;
+    color: white;
+    background-size: contain;
+
+}
+a{
+    text-decoration: none;
+}
+
+.nav{
+    margin: auto;
+    width: 1000px;
+}
+.rr{
+    width: 70px;
+    height: 80px;
+  margin-right: 50px;
+  
+}
+header{
+    border-bottom: 1px solid #eee;
+}
+header li{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-top: 1px;
+    font-style: italic;
+}
+header li a{
+    display: block;
+    padding: 30px;
+    background-color: #f9ffe3;
+    border-radius: 35px;
+    font-style: italic;
+}
+header li a:hover{
+    background-color: #1abc9c;
+    color: chartreuse;
+border-radius: 40px;
+text-decoration: none;
+background-color: #f9ffe3;
+font-style: italic;
+}
+header li:hover .sous{
+    display: block;
+    font-style: italic;
+}
+span.fil{
+    cursor: pointer;
+    color: #24498d;
+}
+span{
+    color: blue;
+    font-size:larger;
+    margin-left: 130px;
+    font-style: oblique;
+
+}
+.droite a{
+    background-color: white;
+    align-content: center;
+}
+.sous{
+    display: none;
+    position: absolute;
+    width: 200px;
+}
+.sous li{
+    display: block;
+}
+.sous li:hover a{
+   border-radius: 10px;
+    color: chartreuse;
+    border-radius: 100px;
+    
+}
+.droite{
+    margin-top: -27px;
+}
+.genielogiciel .droite a{
+  text-decoration: none;
+    margin-left: 360px;
+    color: blue;
+}
+
+p{
+    margin-left: 20px;
+}
+img{
+    width: 500px;
+    height: 300px;
+    margin-top: 2px;
+    
+}
+
+.filieres .genielogiciel {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.filieres .genielogiciel .droite{
+    width: 50%;
+}
+.icon a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 50px;
+}
+.form .btn{
+   background-color: blue;
+   color: white;
+   border-radius: 10px;
+   width: 60px;
+   height: 30px;
+   margin-top: -6px;
+}
+.icon .instagram{
+    color: #DD2A7B;
+}
+.icon .snapchat{
+    color:#FFFC00 ;	
+}
+.icon .twitter{
+    color: #1DA1F2;
+}
+.icon .facebook{
+    color: #29487d;
+}.form .btn a{
+    color: white;
+}
+
+.form .btn a:hover{
+   color: white;
+   text-decoration: none;
+}
+footer .form input{
+    width: 300px;
+    height: 30px;
+    margin-left: 800px;
+    margin-top: -107px;
+    display: inline;
+}
+
+.form input{
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 10px;
+    width: 40px;
+    height: 50px;
+}
+
